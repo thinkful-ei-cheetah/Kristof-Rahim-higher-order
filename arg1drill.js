@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 function repeat(callback, n) {
   for (let i = 0; i < n; i++) {
@@ -7,10 +7,10 @@ function repeat(callback, n) {
 }
 
 function hello() {
-  console.log("Hello world");
+  console.log('Hello world');
 }
 function goodbye() {
-  console.log("Goodbye world");
+  console.log('Goodbye world');
 }
 
 repeat(hello, 5);
